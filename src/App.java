@@ -8,5 +8,12 @@ public class App {
         int randomNumber3 = random.nextInt(10)+1;
 
         System.out.println(randomNumber1 + " " + randomNumber2 + " " + randomNumber3);
+
+        if (randomNumber1 == 7 || randomNumber2 == 7 || randomNumber3 == 7) {
+            System.out.println("Voitit!");
+        }
+        else {
+            System.out.println("Hävisit");
+        }
     }
 }
